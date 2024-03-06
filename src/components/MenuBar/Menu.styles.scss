@@ -1,0 +1,39 @@
+.menu-container {
+    position: relative;
+  }
+  
+  .dots {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    display: none; /* Hide the menu by default */
+    position: absolute;
+    top: calc(100% + 5px); /* Position the menu below the dots */
+    left: 0;
+    background-color: #fff; /* Menu background color */
+    border: 1px solid #ccc; /* Menu border */
+    border-radius: 4px; /* Menu border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Menu shadow */
+  }
+  
+  .menu.open {
+    display: block; /* Display the menu when the container is hovered */
+  }
+  
+  .menu button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .menu button:hover {
+    background-color: #f2f2f2; /* Hover background color */
+  }
+  
